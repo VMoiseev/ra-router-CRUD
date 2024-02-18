@@ -23,6 +23,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "homepage":"https://github.com/VMoiseev/ra-router-CRUD/",
   "eslintConfig": {
     "extends": [
       "react-app",
