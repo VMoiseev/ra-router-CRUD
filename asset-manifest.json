@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/VMoiseev/ra-router-CRUD/static/css/main.b16d6b0a.css",
+    "main.js": "/VMoiseev/ra-router-CRUD/static/js/main.d60c1fd6.js",
+    "index.html": "/VMoiseev/ra-router-CRUD/index.html",
+    "main.b16d6b0a.css.map": "/VMoiseev/ra-router-CRUD/static/css/main.b16d6b0a.css.map",
+    "main.d60c1fd6.js.map": "/VMoiseev/ra-router-CRUD/static/js/main.d60c1fd6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b16d6b0a.css",
+    "static/js/main.d60c1fd6.js"
+  ]
+}
