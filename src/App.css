@@ -1,38 +1,82 @@
 .App {
-  text-align: center;
+  height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.AddCard__content input {
+  outline: none;
+  padding: 5px 10px;
+  border: none;
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.postsControl {
   display: flex;
-  flex-direction: column;
+  justify-content: end;
+  padding: 10px 15px;
+  background-color: white;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.avatar {
+  border-radius: 50%;
+  background-color: grey;
+}
+
+.userCard, .AddCard, .ViewPost_card, .EditCard {
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: white;
+}
+
+.userCard_header, .AddCard_header, .AddCard_main, .AddCard_footer, .userCard_footer, .EditCard_header, .EditCard_main, .EditCard_footer {
+  display: flex;
+}
+
+.AddCard_header, .EditCard_header {
+  justify-content: space-between;
+}
+
+.AddCard__content {
+  width: 100%;
+}
+
+.AddCard_main, .EditCard_main, .userCard_main {
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+.AddCard_footer, .userCard_footer, .EditCard_footer {
+  justify-content: end;
+  gap: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.userCard__info {
+  margin-left: 5px;
+}
+
+.userCard__name {
+  color: blue;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.userCard__subInfo {
+  display: flex;
+  font-size: 10px;
+  color: gray;
+}
+
+.userCard__position {
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+.userCard_main {
+  font-size: 20px;
 }
